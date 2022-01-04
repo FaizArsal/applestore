@@ -1,0 +1,330 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face {
+    font-family: bilal;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'cormorant gramond';
+    src: url(../fonts/CormorantGaramond-Light.ttf);
+}
+@font-face {
+    font-family: 'roboto regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+/* NAVBAR */
+.nav{
+    color: white;
+    background-color: black;
+    height: 37px;
+    width: 1348px;
+    display: flex;
+    font-family: 'cormorant gramond';
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+}
+.nav ul li{
+    display: inline;
+    margin: 0px 27px 0px 27px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav ul{
+    padding-left: 0px;
+    margin: 0px 0px 0px 0px;
+}
+.nav img{
+    height: 35px;
+    width: 41px;
+}
+
+
+
+/* wallpaper */
+.home1{
+    background: url(./images/wallpaper.jpg) no-repeat center center/cover;
+    width: 1348px;
+
+}
+.home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0px 0px 209px;
+    height: 772px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1{
+    font-family: 'bilal';
+    font-size: 50px;
+    margin-top: 544px;
+}
+.home p{
+    font-family: 'roboto regular';
+    font-size: 24px;
+}
+.btn{
+    border: 2px solid white;
+    padding: 5px 19px 5px 19px;
+    border-radius: 50px;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+
+/* for second pics */
+
+.iphone{
+    background-image: url(./images/iphone_13.jpg);
+    background-repeat: no-repeat;
+    background-size: 517px;
+    height: 565px;
+    margin-left: 886px;
+    margin-right: -124px;
+    margin-top: 34px;
+
+    margin-top: -9px;
+}
+.content1{
+    font-family: 'roboto regular';
+    margin-top: -462px;
+    font-size: 31px;
+    margin-left: 206px;
+    height: 461px;
+}
+.btn2{
+    border: 2px solid;
+    display: -webkit-inline-box;
+    margin-top: 48px;
+    margin-left: 61px;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    font-size: 23px;
+}
+.btn2:hover{
+    color: white;
+    background-color: black;
+}
+.btn3{
+    margin-left: 14px;
+    font-size: 23px;
+    margin-top: -22px;
+    border: 2px solid;
+    display: -webkit-inline-box;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+.btn3:hover{
+    color: white;
+    background-color: black;
+}
+/* 3rd section */
+.mobile{
+    background-image: url(./images/phone.jpg);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 1351px;
+    height: 901px;
+    width: 1350px;
+}
+.content2{
+    font-family: 'roboto regular';
+    color: white;
+    margin-top: -642px;
+    font-size: 31px;
+    margin-left: 817px;
+    height: 642px;
+    margin-right: -107px;
+}
+.btn4{
+    border: 2px solid;
+    display: -webkit-inline-box;
+    margin-top: 48px;
+    margin-left: 6px;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    font-size: 23px;
+}
+.btn4:hover{
+    color:  rgb(49, 97, 255);
+    background-color: white;
+}
+.btn5{
+    margin-left: 14px;
+    font-size: 23px;
+    margin-top: -22px;
+    border: 2px solid;
+    display: -webkit-inline-box;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+.btn5:hover{
+    color:  rgb(49, 97, 255);
+    background-color: white;
+}
+/* 4 section */
+.watch{
+    background-image: url(./images/watch_logo_lte__sd64ksudvayy_small_2x.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 220px;
+    margin: 36px 337px -91px 649px;
+}
+
+.watch1 p{
+    font-family: 'roboto regular';
+    font-size: 36px;
+    margin-left: 306px;
+    margin-right: -6px;
+
+}
+.btn6{
+    margin-left: 711px;
+    font-size: 23px;
+    margin-top: 55px;
+    border: 2px solid;
+    display: -webkit-inline-box;
+    border-radius: 40px;
+    padding: 2px 15px 2px 15px;
+    margin-right: 369px;
+}
+.btn6:hover{
+    color: white;
+    background-color: black;
+}
+.watch3{
+    background-image: url(./images/side.jpg);
+    background-repeat: no-repeat;
+    background-size: 1347px;
+    height: 347px;
+    width: 1350px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* 5 section */
+.ipad3{
+    background-image: url(./images/ipad.jpg);
+    background-repeat: no-repeat;
+    background-size: 645px;
+    height: 707px;
+    width: 618px;
+    margin-left: 732px;
+    margin-top: 82px;
+}
+.content3{
+    background-image: url(./images/ipad\ faiz.png ) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 61px;
+    margin: -562px 705px -563px 242px;
+}
+.content3 p{
+    font-family: 'roboto regular';
+    font-size: 36px;
+    margin-left: -176px;
+    margin-right: -210px;
+    margin-top: 0px;  
+    padding: 70px 0px 0px 13px;
+}
+.btn7{
+    margin-left: -44px;
+    font-size: 23px;
+    margin-top: 59px;
+    border: 2px solid;
+    display: -webkit-inline-box;
+    border-radius: 40px;
+    padding: 4px 15px 4px 15px;
+    margin-right: 0px;
+}
+.btn7:hover{
+    color: white;
+    background-color: black;
+}
+.btn8{
+    margin-left: 50px;
+    font-size: 23px;
+    margin-top: 59px;
+    border: 2px solid;
+    display: -webkit-inline-box;
+    border-radius: 40px;
+    padding: 4px 32px 4px 32px;
+    margin-right: 0px;
+}
+.btn8:hover{
+    color: white;
+    background-color: black;
+}
+/* 6 section */
+.laptop1{
+    background-image: url(./images/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    height: 660px;
+    width: 701px;
+    margin: 1060px 0px 0px 0px;
+}
+.content4{
+    background-color: #f5f5f7;
+    margin: -660px -124px 0px 700px;
+    height: 660px;
+}
+.content4 h2{
+    margin: 0px 0px 0px 0px;
+    padding: 301px 0px 0px 274px;
+    font-size: 67px;
+}
+.content4 p{
+    margin: 0px 1px 0px 100px;
+    font-size: 34px;
+}
+.btn9{
+    margin: 22px 380px 0px 90px;
+    font-size: 29px;
+    border: 2px solid;
+    border-radius: 36px;
+    padding: 4px 16px 4px 21px;
+}
+.btn9:hover{
+    color: white;
+    background-color: black;
+}
+.btn10{
+    margin: -45px 172px 2px 321px;
+    font-size: 29px;
+    border: 2px solid;
+    border-radius: 36px;
+    padding: 4px 17px 4px 38px;
+}
+.btn10:hover{
+    color: white;
+    background-color: black;
+}
+/* footer */
+.footer{
+    background-color: #1d1d1f;
+    width: 1350px;
+}
+.footer table tr th{
+    color: white;
+    padding: 40px 60px 13px 36px;
+}
+.footer table tr td{
+    color: #a1a1a6;
+    padding: 8px 60px 8px 36px;
+}
+.end{
+    margin: 0px 0px 0px 163px;
+}
+.color {
+    color: #a1a1a6;
+    margin: 14px 1px 8px 4px;
+}
+.last{
+    margin: 34px 104px 1px 161px;
+}
